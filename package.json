@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "trabalho de iot, integracao de Esp8266 com firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilherme-520/backEndIOT.git"
+  },
+  "author": "Guilherme e Lucão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guilherme-520/backEndIOT/issues"
+  },
+  "homepage": "https://github.com/Guilherme-520/backEndIOT#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.1",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3"
+  }
+}
